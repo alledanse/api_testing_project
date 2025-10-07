@@ -8,10 +8,10 @@ test.beforeEach(async ({ page }) => {
     });
   });
   await page.goto('https://conduit.bondaracademy.com/');
-  await page.getByText('Sign in').click();
-  await page.getByRole('textbox', { name: 'Email' }).fill('pw123test@test.com');
-  await page.getByRole('textbox', { name: 'Password' }).fill('Welcome123');
-  await page.getByRole('button').click();
+  // await page.getByText('Sign in').click();
+  // await page.getByRole('textbox', { name: 'Email' }).fill('pw123test@test.com');
+  // await page.getByRole('textbox', { name: 'Password' }).fill('Welcome123');
+  // await page.getByRole('button').click();
 });
 
 test('has title', async ({ page }) => {
